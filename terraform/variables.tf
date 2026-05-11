@@ -8,11 +8,6 @@ variable "repository_description" {
   type        = string
 }
 
-variable "repository_private" {
-  description = "Whether rep should be private"
-  type        = string
-}
-
 variable "respository_visibility" {
   description = "Visibility of the Github repository"
   type        = string
